@@ -5,7 +5,7 @@
 Horse::Horse(){
   pos = 0;
   index = 0;
-  trackLength = 0;
+  trackLength = 15;
 } // end of contructor
 
 void Horse::advance(){

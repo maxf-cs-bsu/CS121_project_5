@@ -8,7 +8,7 @@ void testHorse();
 int main(){
   srand(time(NULL));
 
-  std::cout << "Horse" << std::endl;
+  std::cout << "Horse test" << std::endl;
 
   testHorse();
 
@@ -24,5 +24,6 @@ void testHorse(){
     if (h.isWinner()){
       keepGoing = false;
     } // end of if
+    std::cout << std::endl;
   } // end of keepGoing
 } // printLane test
