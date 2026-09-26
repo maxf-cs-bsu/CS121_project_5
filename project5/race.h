@@ -5,7 +5,6 @@ class Race {
   private:
     int NUM_HORSES;
     int TRACK_LENGTH;
-    Horse horses[NUM_HORSES];
   public:
     Race();
     void startRace();

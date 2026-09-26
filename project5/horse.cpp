@@ -8,6 +8,12 @@ Horse::Horse(){
   trackLength = 15;
 } // end of contructor
 
+void Horse::init(int pos, int trackLength){
+  Horse::pos = 0;
+  Horse::index = index;
+  Horse::trackLength = trackLength;
+}
+
 void Horse::advance(){
   int coin = rand() % 2;
   pos += coin;

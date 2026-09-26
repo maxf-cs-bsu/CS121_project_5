@@ -10,11 +10,12 @@ int main(){
 
   std::cout << "Horse test" << std::endl;
 
-  testHorse();
+ //  testHorse();
 
   return 0;
 }
 
+/*
 void testHorse(){
   Horse h;
   bool keepGoing = true;
@@ -27,3 +28,5 @@ void testHorse(){
     std::cout << std::endl;
   } // end of keepGoing
 } // printLane test
+*/
+
